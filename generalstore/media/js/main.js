@@ -134,7 +134,7 @@ define(['jquery', 'local_settings', 'base/user', 'base/character', 'base/item', 
         if (inventory) {
           item.setInventory(inventory, user);
           img = body.find('#inventory-notify img');
-          img.attr('src', 'media/images/inventory/' + inventory + '.png')
+          img.attr('src', 'media/images/inventory/' + inventory + '.png');
           img.parent().removeClass('hidden');
         }
 

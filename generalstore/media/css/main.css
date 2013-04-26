@@ -68,6 +68,7 @@ a {
     position: absolute;
     right: -2px;
     top: -2px;
+    z-index: 3;
 }
 
 .character, .item {
@@ -143,7 +144,7 @@ a {
     opacity: 0.75;
     position: absolute;
     width: 50px;
-    z-index: 3;
+    z-index: 4;
 }
 
 #inventory span, #inventory-screen li span {
@@ -219,7 +220,7 @@ a {
     position: absolute;
     text-align: center;
     width: 120px;
-    z-index: 2;
+    z-index: 4;
 }
 
 .hidden {

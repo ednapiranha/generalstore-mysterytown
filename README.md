@@ -96,26 +96,26 @@ Story files can contain zero or more characters and items.
 
 Contains the properties for each character. All properties are mandatory.
 
-* character name - Name of the character.
-* character image - Filename of the character image. Save the file in `generalstore/media/images/characters/`.
-* character left - Position of the character from the left. Set your game dimensions in generalstore/config/defaults.json
-* character top - Position of the character from the top.
-* character requires - If an inventory object is needed to be given to the character before an initial interaction is triggered, enter it here. Otherwise, write 'false'.
-* character gives - This is what the character gives to the player after initial interaction. If nothing needs to be given, write 'false'.
-* character first_says - This is what the character first says to the player on initial interaction.
-* character finally_says - This is what the character says on subsequent interactions.
+* name - Name of the character.
+* image - Filename of the character image. Save the file in `generalstore/media/images/characters/`.
+* left - Position of the character from the left. Set your game dimensions in generalstore/config/defaults.json
+* top - Position of the character from the top.
+* requires - If an inventory object is needed to be given to the character before an initial interaction is triggered, enter it here. Otherwise, write 'false'.
+* gives - This is what the character gives to the player after initial interaction. If nothing needs to be given, write 'false'.
+* first_says - This is what the character first says to the player on initial interaction.
+* finally_says - This is what the character says on subsequent interactions.
 
 **item**
 
 Contains the properties for each item. All properties are mandatory.
 
-* item name - Name of the item. The level and name generate a uniqud id and this will dobule as your item's image filename.
-* item image - Filename of the item image. Save the file in `generalstore/media/images/items/`.
-* item left - Position of the item from the left.
-* item top - Position of the item from the top.
-* item requires - If an inventory object is needed to trigger an item's response (especially if there is a `gives` or `levels_up_to` set), enter it here. Otherwise, write 'false'.
-* item gives - This is what the item provides the player either on initial interaction or if `requires` is fulfilled.
-* item levels_up_to - If `requires` is fulfilled for the item, the scene will change to the level set here. Otheriwse, write 'false'.
+* name - Name of the item. The level and name generate a uniqud id and this will dobule as your item's image filename.
+* image - Filename of the item image. Save the file in `generalstore/media/images/items/`.
+* left - Position of the item from the left.
+* top - Position of the item from the top.
+* requires - If an inventory object is needed to trigger an item's response (especially if there is a `gives` or `levels_up_to` set), enter it here. Otherwise, write 'false'.
+* gives - This is what the item provides the player either on initial interaction or if `requires` is fulfilled.
+* levels_up_to - If `requires` is fulfilled for the item, the scene will change to the level set here. Otheriwse, write 'false'.
 
 
 ### Generating files

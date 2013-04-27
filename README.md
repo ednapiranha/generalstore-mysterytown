@@ -2,9 +2,9 @@
 
 ## What it is
 
-A 2D adventure game maker.
+A 2D adventure / interactive fiction game maker.
 
-## Install for users
+## Installation
 
 You want to use generalstore to create a game? Here's what you need
 to do:
@@ -12,39 +12,11 @@ to do:
 1. Install [node](http://nodejs.org)
 2. Clone the repository
 
-   > git clone git://github.com/ednapiranha/generalstore.git
+   > git clone -b production https://git@github.com:ednapiranha/generalstore.git
 
    > cd generalstore
 
-   > cp local.json-dist local.json
-
    > npm install
-
-3. Create `generalstore/media/js/local_settings.js` and paste the following:
-
-        define([],
-           function () {
-
-           'use strict';
-
-           return {
-              DEBUG: true
-           };
-        });
-
-4. Make sure `generalstore/media/js/templates.js` only has the following:
-
-        define(function() {});
-
-5. Download [nunjucks-dev.js](https://raw.github.com/jlongster/nunjucks/master/browser/nunjucks-dev.js) and save it to `generalstore/media/js/lib/nunjucks.js`
-
-
-## Install for contributors
-
-You want to get set up to hack on generalstore and contribute patches?
-Here's what you need to do:
-
-1. Everything in "Install for users"
 
 
 ## Writing stories
@@ -53,16 +25,14 @@ Here's what you need to do:
 
 > cd generalstore/config
 
-> cp defaults.json-dist defaults.json
-
 Edit the `width` and `height` values in defaults.json.
 
 If you don't want level descriptions to display in the game, set `showDescription` to false.
 
 
-### Running in development
+### Running the app
 
-To run the app in development, do:
+To run the app for game development, do:
 
 > node app.js
 
@@ -153,34 +123,14 @@ Contains the properties for each item. All properties are mandatory.
 Once you've completed your txt files, run [http://localhost:3000/generate](http://localhost:3000/generate) in your browser to regenerate the configuration.
 
 
-## Packaging it up for production
+## Packaging it up to play!
 
 Ready to deploy as a finished standalone package? Then do:
 
-1. Minify files with Grunt in production
+1. Minify files with Grunt
 
    > node_modules/grunt-cli/bin/grunt
 
-2. Change `generalstore/media/js/local_settings.js` DEBUG to false.
-
-3. Run the following to precompile the templates:
-
-   > node_modules/nunjucks/bin/precompile generalstore/templates > generalstore/media/js/templates.js
-
-4. Download [nunjucks.js](https://raw.github.com/jlongster/nunjucks/master/browser/nunjucks.js) and save it to `generalstore/media/js/lib/nunjucks.js`
-
-
 You only need the contents within generalstore/generalstore (e.g. config/, media/, templates/, main.html).
 
-After precompiling nunjucks to templates.js and minifying with grunt, main.html should work as is.
-
-Note that you must run this on some kind of webserver and point to main.html as the default landing page.
-
-
-## Running tests
-
-> make test
-
-and also
-
-Load `generalstore/test/tests.html` in a browser
+Copy these files in the generalstore subdirectory to the root of your website and set main.html as the default landing page.

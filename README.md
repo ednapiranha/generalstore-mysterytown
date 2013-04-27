@@ -12,7 +12,7 @@ to do:
 1. Install [node](http://nodejs.org)
 2. Clone the repository
 
-   > git clone -b production https://git@github.com:ednapiranha/generalstore.git
+   > git clone -b production git@github.com:ednapiranha/generalstore.git
 
    > cd generalstore
 

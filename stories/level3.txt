@@ -1,0 +1,14 @@
+level
+3
+
+location
+The Inner City
+
+audio
+false
+
+background_image
+city.jpg
+
+description
+false

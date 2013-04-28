@@ -33,3 +33,23 @@ requires: notebook
 gives: note
 audio: false
 levels_up_to: false
+
+item
+name: tv
+image: tv.gif
+left: 658
+top: 413
+requires: note
+gives: map
+audio: white-noise.ogg
+levels_up_to: false
+
+item
+name: room-door
+image: room-door.gif
+left: 1090
+top: 543
+requires: false
+gives: false
+audio: door.ogg
+levels_up_to: 1

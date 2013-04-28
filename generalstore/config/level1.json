@@ -45,6 +45,16 @@
             "gives": "keys",
             "audio": "buzz.ogg",
             "levels_up_to": ""
+        },
+        "1-exit1": {
+            "name": "exit1",
+            "image": "room-door.gif",
+            "left": 570,
+            "top": 433,
+            "requires": "map",
+            "gives": "",
+            "audio": "",
+            "levels_up_to": 3
         }
     }
 }

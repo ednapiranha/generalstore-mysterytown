@@ -53,7 +53,7 @@ define([],
    * @returns {boolean}
    */
   Item.prototype.setLevel = function (level, user) {
-    if (level && user.level < level) {
+    if (level) {
       user.level = level;
       user.save();
       return true;

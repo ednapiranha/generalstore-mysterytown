@@ -27,6 +27,26 @@
             "gives": "note",
             "audio": "",
             "levels_up_to": ""
+        },
+        "2-tv": {
+            "name": "tv",
+            "image": "tv.gif",
+            "left": 658,
+            "top": 413,
+            "requires": "note",
+            "gives": "map",
+            "audio": "white-noise.ogg",
+            "levels_up_to": ""
+        },
+        "2-room-door": {
+            "name": "room-door",
+            "image": "room-door.gif",
+            "left": 1090,
+            "top": 543,
+            "requires": "",
+            "gives": "",
+            "audio": "door.ogg",
+            "levels_up_to": 1
         }
     }
 }

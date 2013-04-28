@@ -5,7 +5,7 @@ location
 Sleepy Town
 
 audio
-false
+cicadas.ogg
 
 background_image
 town.jpg
@@ -40,5 +40,5 @@ left: 814
 top: 375
 requires: false
 gives: keys
-audio: false
+audio: buzz.ogg
 levels_up_to: false

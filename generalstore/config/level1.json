@@ -2,7 +2,7 @@
     "level": 1,
     "location": "Sleepy Town",
     "background_image": "town.jpg",
-    "audio": "",
+    "audio": "cicadas.ogg",
     "description": "Welcome to Sleepy Town. Population: 11,050. You have been called in by Sheriff Wino to investigate the death of the town cat.",
     "characters": {},
     "items": {
@@ -33,7 +33,7 @@
             "top": 375,
             "requires": "",
             "gives": "keys",
-            "audio": "",
+            "audio": "buzz.ogg",
             "levels_up_to": ""
         }
     }

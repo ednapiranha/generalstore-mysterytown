@@ -1,1 +1,8 @@
 /* Add your custom styles here */
+#inventory-notify {
+    border-radius: 5px;
+    box-shadow: #555 2px 2px 4px;
+    left: 0;
+    margin: 250px auto 0 auto;
+    position: relative;
+}

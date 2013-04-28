@@ -8,12 +8,12 @@
     "items": {
         "1-tree1": {
             "name": "tree1",
-            "image": "tree1.png",
-            "left": 100,
-            "top": 400,
+            "image": "tree1.gif",
+            "left": 213,
+            "top": 320,
             "requires": "",
-            "gives": "",
-            "audio": "",
+            "gives": "flashlight",
+            "audio": "chirping.ogg",
             "levels_up_to": ""
         },
         "1-motel": {
@@ -31,7 +31,7 @@
             "image": "e-sign.gif",
             "left": 814,
             "top": 375,
-            "requires": "",
+            "requires": "flashlight",
             "gives": "keys",
             "audio": "buzz.ogg",
             "levels_up_to": ""

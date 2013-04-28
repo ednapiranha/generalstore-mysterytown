@@ -1,4 +1,10 @@
 /* Add your custom styles here */
+#wrapper {
+    margin: 0 auto;
+    position: relative;
+    width: 1200px;
+}
+
 #inventory-notify {
     border-radius: 5px;
     box-shadow: #555 2px 2px 4px;

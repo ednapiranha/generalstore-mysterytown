@@ -1,0 +1,14 @@
+level
+2
+
+location
+Motel Coconut
+
+audio
+false
+
+background_image
+room.jpg
+
+description
+You enter your motel room and place the notebook onto the night table.

@@ -16,22 +16,32 @@
             "audio": "chirping.ogg",
             "levels_up_to": ""
         },
-        "1-motel": {
-            "name": "motel",
-            "image": "motel.png",
-            "left": 650,
-            "top": 310,
-            "requires": "keys",
-            "gives": "",
-            "audio": "",
+        "1-door1": {
+            "name": "door1",
+            "image": "door1.png",
+            "left": 861,
+            "top": 513,
+            "requires": "flashlight",
+            "gives": "ladder",
+            "audio": "door.ogg",
             "levels_up_to": ""
+        },
+        "1-door2": {
+            "name": "door2",
+            "image": "door2.png",
+            "left": 861,
+            "top": 451,
+            "requires": "keys",
+            "gives": "notebook",
+            "audio": "door.ogg",
+            "levels_up_to": 2
         },
         "1-esign": {
             "name": "esign",
             "image": "e-sign.gif",
-            "left": 814,
-            "top": 375,
-            "requires": "flashlight",
+            "left": 820,
+            "top": 373,
+            "requires": "ladder",
             "gives": "keys",
             "audio": "buzz.ogg",
             "levels_up_to": ""

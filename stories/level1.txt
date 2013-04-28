@@ -27,3 +27,12 @@ top: 310
 requires: keys
 gives: false
 levels_up_to: false
+
+item
+name: esign
+image: e-sign.gif
+left: 814
+top: 375
+requires: false
+gives: keys
+levels_up_to: false

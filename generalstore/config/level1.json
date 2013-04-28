@@ -22,6 +22,15 @@
             "requires": "keys",
             "gives": "",
             "levels_up_to": ""
+        },
+        "1-esign": {
+            "name": "esign",
+            "image": "e-sign.gif",
+            "left": 814,
+            "top": 375,
+            "requires": "",
+            "gives": "keys",
+            "levels_up_to": ""
         }
     }
 }

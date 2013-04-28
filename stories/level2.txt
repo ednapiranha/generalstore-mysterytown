@@ -12,3 +12,24 @@ room.jpg
 
 description
 You enter your motel room and place the notebook onto the night table.
+
+character
+name: cat1
+image: cat1.gif
+left: 745
+top: 424
+requires: false
+first_says: You're here to see the Sheriff? Welcome to our town ...
+finally_says: *purr purr*
+gives: false
+audio: purr.ogg
+
+item
+name: notebook
+image: notebook.png
+left: 0
+top: 532
+requires: notebook
+gives: note
+audio: false
+levels_up_to: false

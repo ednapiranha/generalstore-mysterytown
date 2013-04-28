@@ -4,6 +4,9 @@ level
 location
 Sleepy Town
 
+audio
+false
+
 background_image
 town.jpg
 
@@ -17,6 +20,7 @@ left: 100
 top: 400
 requires: false
 gives: false
+audio: false
 levels_up_to: false
 
 item
@@ -26,6 +30,7 @@ left: 650
 top: 310
 requires: keys
 gives: false
+audio: false
 levels_up_to: false
 
 item
@@ -35,4 +40,5 @@ left: 814
 top: 375
 requires: false
 gives: keys
+audio: false
 levels_up_to: false

@@ -19,10 +19,51 @@ image: cat2.gif
 left: 275
 top: 319
 requires: false
-first_says: meow
-finally_says: ...
+first_says: There is a gray cat in the back of the bar. You should talk to it.
+finally_says: *meow*
 gives: false
+audio: meow1.ogg
+
+character
+name: cat3
+image: cat3.gif
+left: 1076
+top: 214
+requires: money
+first_says: Thank you for the money. I can't say much here but the key to the back room is hidden in one of these frames.
+finally_says: Sorry, I need to make a call.
+gives: false
+audio: purr.ogg
+
+item
+name: napkin
+image: napkin.jpg
+left: 145
+top: 460
+requires: false
+gives: money
 audio: false
+levels_up_to: false
+
+item
+name: picture
+image: picture-frame.jpg
+left: 759
+top: 187
+requires: false
+gives: frame
+audio: false
+levels_up_to: false
+
+item
+name: backdoor
+image: backdoor.jpg
+left: 216
+top: 153
+requires: frame
+gives: false
+audio: door.ogg
+levels_up_to: 5
 
 item
 name: room-door

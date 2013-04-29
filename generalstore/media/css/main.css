@@ -1,6 +1,7 @@
 body {
     -moz-user-select: none;
     -webkit-user-select: none;
+    -ms-user-select: none;
     background-color: #eee;
     color: #344347;
     font-family: Arial, sans-serif;
@@ -85,12 +86,9 @@ audio {
 }
 
 .character, .item {
+    cursor: pointer;
     position: absolute;
     z-index: 2;
-}
-
-.active {
-    cursor: pointer;
 }
 
 #message {

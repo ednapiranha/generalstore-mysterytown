@@ -2,8 +2,41 @@
     "level": 3,
     "location": "The Inner City",
     "background_image": "city.jpg",
-    "audio": "",
+    "audio": "ambient1.ogg",
     "description": "",
-    "characters": {},
-    "items": {}
+    "characters": {
+        "3-hawk": {
+            "name": "hawk",
+            "image": "hawk.gif",
+            "left": 825,
+            "top": 24,
+            "requires": "",
+            "first_says": "Be careful ...",
+            "finally_says": "...",
+            "gives": "",
+            "audio": "hawk.ogg"
+        }
+    },
+    "items": {
+        "3-bar-door": {
+            "name": "bar-door",
+            "image": "bar-door.jpg",
+            "left": 146,
+            "top": 469,
+            "requires": "",
+            "gives": "",
+            "audio": "door.ogg",
+            "levels_up_to": 4
+        },
+        "3-room-door": {
+            "name": "room-door",
+            "image": "room-door.gif",
+            "left": 1090,
+            "top": 543,
+            "requires": "",
+            "gives": "",
+            "audio": "",
+            "levels_up_to": 1
+        }
+    }
 }

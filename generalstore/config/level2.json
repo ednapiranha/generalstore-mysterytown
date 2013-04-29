@@ -3,7 +3,7 @@
     "location": "Motel Coconut",
     "background_image": "room.jpg",
     "audio": "",
-    "description": "You enter your motel room and place the notebook onto the night table.",
+    "description": "",
     "characters": {
         "2-cat1": {
             "name": "cat1",

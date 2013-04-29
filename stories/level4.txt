@@ -1,0 +1,35 @@
+level
+4
+
+location
+Local Bar
+
+audio
+bar.ogg
+
+background_image
+bar.jpg
+
+description
+false
+
+character
+name: cat2
+image: cat2.gif
+left: 275
+top: 319
+requires: false
+first_says: meow
+finally_says: ...
+gives: false
+audio: false
+
+item
+name: room-door
+image: room-door.gif
+left: 1090
+top: 543
+requires: false
+gives: false
+audio: false
+levels_up_to: 3

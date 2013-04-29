@@ -11,7 +11,7 @@ background_image
 town.jpg
 
 description
-Welcome to Sleepy Town. Population: 11,050. You have been called in by Sheriff Wino to investigate the death of the town cat.
+false
 
 item
 name: tree1

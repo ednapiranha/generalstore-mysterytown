@@ -11,7 +11,7 @@ background_image
 room.jpg
 
 description
-You enter your motel room and place the notebook onto the night table.
+false
 
 character
 name: cat1

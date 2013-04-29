@@ -1,0 +1,32 @@
+{
+    "level": 4,
+    "location": "Local Bar",
+    "background_image": "bar.jpg",
+    "audio": "bar.ogg",
+    "description": "",
+    "characters": {
+        "4-cat2": {
+            "name": "cat2",
+            "image": "cat2.gif",
+            "left": 275,
+            "top": 319,
+            "requires": "",
+            "first_says": "meow",
+            "finally_says": "...",
+            "gives": "",
+            "audio": ""
+        }
+    },
+    "items": {
+        "4-room-door": {
+            "name": "room-door",
+            "image": "room-door.gif",
+            "left": 1090,
+            "top": 543,
+            "requires": "",
+            "gives": "",
+            "audio": "",
+            "levels_up_to": 3
+        }
+    }
+}

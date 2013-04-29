@@ -5,10 +5,41 @@ location
 The Inner City
 
 audio
-false
+ambient1.ogg
 
 background_image
 city.jpg
 
 description
 false
+
+character
+name: hawk
+image: hawk.gif
+left: 825
+top: 24
+requires: false
+first_says: Be careful ...
+finally_says: ...
+gives: false
+audio: hawk.ogg
+
+item
+name: bar-door
+image: bar-door.jpg
+left: 146
+top: 469
+requires: false
+gives: false
+audio: door.ogg
+levels_up_to: 4
+
+item
+name: room-door
+image: room-door.gif
+left: 1090
+top: 543
+requires: false
+gives: false
+audio: false
+levels_up_to: 1
